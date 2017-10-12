@@ -1,0 +1,22 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Clock app in React",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel jsx -d js"
+  },
+  "author": "Cameron Panagrosso <cameron.panagrosso@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  }
+}
